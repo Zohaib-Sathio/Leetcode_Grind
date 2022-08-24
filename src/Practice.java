@@ -2,11 +2,8 @@ import java.util.HashMap;
 
 public class Practice {
 
-}
-
-class Solution {
     public int firstUniqChar(String s) {
-        HashMap<Character, Integer> map = new HashMap();
+        HashMap<Character, Integer> map = new HashMap<>();
         for(int i = 0; i < s.length(); i++){
             map.put(s.charAt(i), 0);
         }
@@ -21,5 +18,9 @@ class Solution {
             }
         }
         return -1;
+    }
+
+    public static void main(String[] args) {
+
     }
 }
