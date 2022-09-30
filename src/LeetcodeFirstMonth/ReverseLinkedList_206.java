@@ -63,23 +63,23 @@ Memory Usage: 43 MB, less than 49.66% of Java online submissions for Reverse Lin
         return reverseListInt(next, head);
     }
 
-    //    public static ListNode reverseList(ListNode list){
+    //    public static ToSolveLater.ListNode reverseList(ToSolveLater.ListNode list){
 //
-//        ListNode prev = null;
-//        ListNode current = list;
-//        ListNode next = list.next;
+//        ToSolveLater.ListNode prev = null;
+//        ToSolveLater.ListNode current = list;
+//        ToSolveLater.ListNode next = list.next;
 //
 //        while (current != null){
 //            System.out.println("fsf");
-//            ListNode ptr1 = current;
-//            ListNode ptr2 = next;
+//            ToSolveLater.ListNode ptr1 = current;
+//            ToSolveLater.ListNode ptr2 = next;
 //            ptr2.next = ptr1;
 //            current = current.next;
 //            next = next.next;
 //        }
 
-//        for(ListNode node = list; node.next != null; node = node.next){
-//            ListNode temp = ptr2;
+//        for(ToSolveLater.ListNode node = list; node.next != null; node = node.next){
+//            ToSolveLater.ListNode temp = ptr2;
 //
 //            System.out.println("dfas");
 //            ptr2.next = ptr1;

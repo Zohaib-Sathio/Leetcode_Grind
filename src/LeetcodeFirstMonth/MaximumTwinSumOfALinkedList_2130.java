@@ -27,8 +27,8 @@ Memory Usage: 173.3 MB, less than 5.01% of Java online submissions for Maximum T
         list2.next = new ListNode(40000);
         list2.next.next = new ListNode(2);
         list2.next.next.next = new ListNode(103420);
-//        list2.next.next.next = new ListNode(4);
-//        list2.next.next.next.next.next = new ListNode(6);
+//        list2.next.next.next = new ToSolveLater.ListNode(4);
+//        list2.next.next.next.next.next = new ToSolveLater.ListNode(6);
         System.out.println(maximumTwinSum(list2));
     }
     public int pairSum(ListNode head) {
@@ -52,12 +52,12 @@ Memory Usage: 173.3 MB, less than 5.01% of Java online submissions for Maximum T
 }
 /**
  * Definition for singly-linked list.
- * public class ListNode {
+ * public class ToSolveLater.ListNode {
  *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ *     ToSolveLater.ListNode next;
+ *     ToSolveLater.ListNode() {}
+ *     ToSolveLater.ListNode(int val) { this.val = val; }
+ *     ToSolveLater.ListNode(int val, ToSolveLater.ListNode next) { this.val = val; this.next = next; }
  * }
  */
 

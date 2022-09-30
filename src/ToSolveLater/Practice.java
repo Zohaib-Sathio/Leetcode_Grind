@@ -1,3 +1,5 @@
+package ToSolveLater;
+
 import java.util.HashMap;
 
 public class Practice {

@@ -1,3 +1,5 @@
+package ToSolveLater;
+
 public class SwapNodesInPairs_24 {
 
     public static ListNode swapNodes(ListNode head){

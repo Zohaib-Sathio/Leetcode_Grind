@@ -1,3 +1,5 @@
+package ToSolveLater;
+
 public class MedianOfTwoSortedArrays {
         public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
             int[] newArray = new int[nums1.length + nums2.length];

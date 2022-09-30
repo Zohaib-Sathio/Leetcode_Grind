@@ -1,3 +1,5 @@
+package ToSolveLater;
+
 public class MergeKSortedLists_23 {
 
     /*
@@ -62,14 +64,14 @@ Language
 
     public static void main(String[] args) {
         ListNode list = new ListNode(2);
-//        list.next = new ListNode(7);
+//        list.next = new ToSolveLater.ListNode(7);
 
         ListNode list2 = new ListNode();
-//        list2.next = new ListNode(4);
+//        list2.next = new ToSolveLater.ListNode(4);
 
         ListNode list3 = new ListNode(-1);
-//        list3.next = new ListNode(3);
-//        list3.next.next = new ListNode(6);
+//        list3.next = new ToSolveLater.ListNode(3);
+//        list3.next.next = new ToSolveLater.ListNode(6);
 
         ListNode[] listNodes = {list, list2, list3};
         ListNode mergedKLists = mergeKLists(listNodes);

@@ -1,3 +1,5 @@
+package ToSolveLater;
+
 public class MakingConstantAlgorithms {
 
     public static int sumOfArray(int[] nums){

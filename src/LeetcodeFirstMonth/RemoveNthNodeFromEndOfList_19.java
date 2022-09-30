@@ -31,9 +31,9 @@ Memory Usage: 42.5 MB, less than 34.87% of Java online submissions for Remove Nt
     public static void main(String[] args) {
         ListNode list = new ListNode(1);
         list.next = new ListNode(2);
-//        list.next.next = new ListNode(3);
-//        list.next.next.next = new ListNode(4);
-//        list.next.next.next.next = new ListNode(5);
+//        list.next.next = new ToSolveLater.ListNode(3);
+//        list.next.next.next = new ToSolveLater.ListNode(4);
+//        list.next.next.next.next = new ToSolveLater.ListNode(5);
 
         ListNode list2 = removeNthNodeFromEnd(list, 2);
         for (ListNode node = list2; node != null; node = node.next) {

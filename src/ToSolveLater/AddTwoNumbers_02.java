@@ -1,3 +1,5 @@
+package ToSolveLater;
+
 public class AddTwoNumbers_02 {
 
 //    Wrong Answer
@@ -61,9 +63,9 @@ public class AddTwoNumbers_02 {
         return dummy.next;
     }
 
-//    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+//    public ToSolveLater.ListNode addTwoNumbers(ToSolveLater.ListNode l1, ToSolveLater.ListNode l2) {
 //        int carry = 0;
-//        ListNode p, dummy = new ListNode(0);
+//        ToSolveLater.ListNode p, dummy = new ToSolveLater.ListNode(0);
 //        p = dummy;
 //        while (l1 != null || l2 != null || carry != 0) {
 //            if (l1 != null) {
@@ -74,7 +76,7 @@ public class AddTwoNumbers_02 {
 //                carry += l2.val;
 //                l2 = l2.next;
 //            }
-//            p.next = new ListNode(carry%10);
+//            p.next = new ToSolveLater.ListNode(carry%10);
 //            carry /= 10;
 //            p = p.next;
 //        }
@@ -94,8 +96,8 @@ public class AddTwoNumbers_02 {
         list.next.next.next.next.next.next.next.next.next = new ListNode(9);
 
         ListNode list2 = new ListNode(9);
-//        list.next = new ListNode(6);
-//        list.next.next = new ListNode(4);
+//        list.next = new ToSolveLater.ListNode(6);
+//        list.next.next = new ToSolveLater.ListNode(4);
 
         ListNode list3 = addTwoNumbers(list, list2);
         for(ListNode node = list3; node != null; node = node.next){

@@ -62,10 +62,10 @@ public class DeleteTheMiddleNodeOfLinkedList_2095 {
     public static void main(String[] args) {
         ListNode list = new ListNode(1);
         list.next = new ListNode(2);
-//        list.next.next = new ListNode(3);
-//        list.next.next.next = new ListNode(4);
-//        list.next.next.next.next = new ListNode(5);
-//        list.next.next.next.next.next = new ListNode(6);
+//        list.next.next = new ToSolveLater.ListNode(3);
+//        list.next.next.next = new ToSolveLater.ListNode(4);
+//        list.next.next.next.next = new ToSolveLater.ListNode(5);
+//        list.next.next.next.next.next = new ToSolveLater.ListNode(6);
 
 
         ListNode p = deleteMiddleNode(list);
