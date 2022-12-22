@@ -1,4 +1,4 @@
-package ToSolveLater;
+package SuccessfullySubmittedProblems;
 
 import java.util.LinkedList;
 import java.util.List;
