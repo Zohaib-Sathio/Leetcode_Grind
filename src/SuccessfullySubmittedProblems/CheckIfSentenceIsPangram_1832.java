@@ -4,7 +4,6 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class CheckIfSentenceIsPangram_1832 {
-}
 /*
 Runtime
 6 ms
@@ -16,7 +15,6 @@ Beats
 6.56%
  */
 
-class Solution {
     public boolean checkIfPangram(String sentence) {
         Set<Character> alphabets = new HashSet();
         String english = "abcdefghijklmnopqrstuvwxyz";
