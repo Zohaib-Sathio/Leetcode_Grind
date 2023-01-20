@@ -1,22 +1,17 @@
-package ToSolveLater;
+package HARD_Problems;
+
 
 public class MergeKSortedLists_23 {
 
     /*
-    Wrong Answer
-Details
-Input
-[[2],[],[-1]]
-Output
-[0,2]
-Expected
-[-1,2]
-Time Submitted
-Status
-Runtime
+    Runtime
+191 ms
+Beats
+13.82%
 Memory
-Language
-07/18/2022 00:09	Wrong Answer	N/A	N/A	java
+44.5 MB
+Beats
+51.15%
      */
     public static ListNode mergeKLists(ListNode[] lists){
         ListNode listNode = null;
